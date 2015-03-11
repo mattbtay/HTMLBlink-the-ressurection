@@ -7,6 +7,8 @@ function getText(){
 
 	$('.generated-blink').text(blinkingText);
 
+	$('.panel').fadeIn();
+
 	
 }
 
@@ -15,9 +17,10 @@ function resetText(){
 
 	$('#blinkText').val('');
 
-	$('.generated-blink').text('');
 
-	
+	//$('.generated-blink').text('');
+
+	$('.panel').fadeOut();
 }
 
 $(document).ready(function(){
