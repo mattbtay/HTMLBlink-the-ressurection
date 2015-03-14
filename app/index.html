@@ -23,11 +23,13 @@
   </head>
   <body>
   
+    <div class="full">
+
     <div class="container">
 
       <div class="row">
 
-        <div class="col-md-12">
+        <div class="col-md-10 col-md-offset-1">
 
           <header>
 
@@ -35,7 +37,45 @@
 
             <p>HTML Blink is a service designed to bring dignity back to the internet. The <code>&lt;blink&gt;</code> element is just as important as other elements like the <code>&lt;p&gt;</code> or <code>&lt;h1&gt;</code>. It is unfare that elements like this have been looked down on for so long. It is vital to keeping the internet a free and open space.</p>
 
-          </header
+          </header>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-12">
+
+          <div class="row">
+
+            <div class="col-md-5 col-md-offset-1">
+              
+                <input type="text" id="HTMLblinkText" class="form-control input-lg" placeholder="This text should so blink" />
+
+            </div>
+
+            <div class="col-md-3">
+
+              <input type="text" id="HTMLblinkTime" class="form-control input-lg" placeholder="time in milliseconds">
+
+            </div>
+
+            <div class="col-md-3 pull-right">
+
+              <a id="HTMLblinkSubmit" class="btn btn-primary btn-lg form-button">Blink</a>
+
+              <a id="HTMLblinkReset" class="btn btn-warning btn-lg form-button">Reset</a>
+
+            </div>
+
+          </div>
 
         </div>
 
@@ -45,20 +85,9 @@
 
         <div class="col-md-12">
 
-          <form class="form-inline">
+          <p class="generated-blink"></p>
 
-            <div class="form-group">
-
-              <input type="text" id="blinkText" class="form-control" placeholder="This text should so blink" />
-
-            </div>
-
-            <a id="blinkSubmit" class="btn btn-primary formBtn">Blink it!</a>
-            <a id="blinkReset" class="btn btn-warning formBtn">Reset</a>
-
-          </form>
-
-        </div>
+        <div>
 
       </div>
 
@@ -70,7 +99,7 @@
           
             <div class="panel-body">
             
-              <p class="generated-blink"></p>
+             
 
             </div>
             
